@@ -1,0 +1,185 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+header {
+    background-color: white;
+    width: 100%;
+    line-height: 30px;
+}
+
+main {
+    background-color: white;
+}
+
+.logosx {
+    float: left;
+}
+
+.logodx {
+    float: right;
+}
+
+.logosx img{
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation li {
+    display: inline-block;
+    margin: 25px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation .ul-dx li:last-child {
+    background-color: #0061ff;
+}
+
+.navigation .ul-dx li:last-child a{
+    color: white;
+    padding: 20px;
+}
+
+/* HERO */
+.hero {
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+.hero-container {
+    margin: auto;
+    width: 80%;
+    padding-top: 90px;
+}
+
+.hero-title {
+    font-size: 37px;
+    line-height: 110px;
+}
+
+.hero-text {
+    float: left;
+    width: 35%;
+}
+
+.hero-text p {
+    line-height: 25px;
+    padding-right: 160px;
+    padding-top: 30px;
+}
+
+.hero-img {
+    float: left;
+    width: 65%;
+    position: relative;
+}
+
+.hero-img img {
+    width: 100%;
+    padding-top: 30px;
+    position: absolute;
+}
+
+.bottom-herotxt {
+    margin: 30px 0;
+    margin-bottom: 20px;
+}
+
+.bottom-herotxt a {
+    line-height: 30px;
+    background-color: #0061ff;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.arrow {
+    margin: 50px 0;
+    margin-bottom: 155px;
+}
+
+.arrow img {
+    width: 40px;
+}
+
+/* MAIN */
+
+/* PLANE SECTION */
+.external-section {
+    margin: auto;
+    max-width: 1200px;
+    background-color: teal;
+}
+
+.plane-section {
+    margin-top: 240px;
+}
+
+.plane-section h1 {
+    font-size: 45px;
+}
+
+.plane-section .select {
+    margin-top: 50px;
+}
+
+.plane-section .select p {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.col ,.col1{
+    float: left;
+    width: calc(90% / 3);
+    border: solid black 0.5px;
+}
+
+.col-plane {
+    margin-top: 50px;
+}
+
+.col1 {
+    margin: 0 5%;
+}
+
+.choice img {
+    width: 15px;
+    vertical-align: middle;
+}
+
+.choice-title {
+    line-height: 50px;
+    text-align: center;
+}
+
+.choice-text {
+    width: 80%;
+    margin: auto;
+}
+
+.choice
+
+
+/* ----------------------------- */
+
+/* CLEAR-FIX */
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* ----------------------------- */
