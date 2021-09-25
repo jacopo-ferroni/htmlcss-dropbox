@@ -432,6 +432,30 @@ main {
     text-decoration: none;
     color: black;
 }
+
+/* SIXTH SECTION */
+
+.sixth-section h2 {
+    font-size: 30px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.sixth-section p {
+    padding: 40px 0;
+    position: relative;
+}
+
+.last {
+    margin-bottom: 120px;
+}
+
+.sixth-section img {
+    width: 20px;
+    vertical-align: middle;
+    position: absolute;
+    right: 5%;
+}
 /* ----------------------------- */
 
 /* CLEAR-FIX */
