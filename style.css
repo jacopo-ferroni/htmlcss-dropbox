@@ -355,6 +355,83 @@ main {
 .frth-col-container:last-child {
     margin-top: 100px;
 }
+
+.frth-bottom {
+    margin-top: 200px;
+    width: 52%;
+}
+
+.frth-bottom a {
+    color: #0061ff;
+}
+
+.frth-bottom h1 {
+    padding-bottom: 30px;
+}
+
+/* MEMBERS SECTION */
+.members-section {
+    width: 100%;
+    background-color: #f5f5f5;
+}
+
+.members-col {
+    float: left;
+    width: 30%;
+}
+
+.members-col1 {
+    float: left;
+    width: 40%;
+}
+
+.box img {
+    filter: invert();
+    width: 100%;
+}
+
+.members-col .box {
+    height: 50%;
+    width: 50%;
+    background-color: #a2d39b;
+    display: inline-block;
+}
+
+/* FIFTH SECTION */
+.fifth-section {
+    background-color: #b4d0e7;
+    width: 100%;
+}
+
+.fth-bottom-container, .fth-text {
+    padding: 150px 0;
+}
+
+.fth-text {
+    float: left;
+    width: 50%;
+    color: #61082b;
+    font-size: 25px;
+}
+
+.fth-bottom-container {
+    float: left;
+    width: 50%;
+    position: relative;
+}
+
+.fth-bottom {
+    background-color: white;
+    line-height: 20px;
+    position: absolute;
+    right: 0%;
+    padding: 10px 70px;
+}
+
+.fth-bottom a{
+    text-decoration: none;
+    color: black;
+}
 /* ----------------------------- */
 
 /* CLEAR-FIX */
