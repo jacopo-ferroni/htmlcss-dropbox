@@ -314,6 +314,47 @@ main {
     text-decoration: none;
     color: black;
 }
+
+/* FOURTH SECTION */
+.frth-col, .frth-col1{
+    float: left;
+    width: calc(82% / 3)
+}
+
+.frth-col:nth-child(2){
+    margin: 0% 9%;
+}
+
+.fourth-section {
+    margin: 120px 0;
+}
+
+.frth-col img {
+    width: 100%;
+}
+
+.frth-text h2 {
+    line-height: 40px;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.frth-text p {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.frth-text p span {
+    text-decoration: underline;
+}
+
+.frth-col-container {
+    margin-top: 50px;
+}
+
+.frth-col-container:last-child {
+    margin-top: 100px;
+}
 /* ----------------------------- */
 
 /* CLEAR-FIX */
