@@ -5,11 +5,6 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-/* UTILITY */
-hr {
-    size: 0.5px;
-}
-
 /* HEADER */
 header {
     background-color: white;
@@ -152,6 +147,7 @@ main {
 
 .col-plane {
     margin-top: 50px;
+    position: relative;
 }
 
 .col1 {
@@ -168,47 +164,28 @@ main {
     text-align: center;
 }
 
-.choice-text {
+.text {
     width: 80%;
     margin: auto;
 }
 
-.choice-text h2 {
+.text h2 {
     padding-top: 45px;
     padding-bottom: 20px;
 }
 
-.choice-text .price {
+.text .price {
     padding-bottom: 15px;
 }
 
-.choice-text .period {
+.text .period {
     color: #667583;
     font-size: 15px;
     padding-bottom: 70px;
 }
 
-.choice-text .line img {
-    width: 12px;
-    vertical-align: middle;
-}
-
-.plus {
-    width: 15px;
-}
-
-.choice-text .small-text {
-    font-size: 15px;
-    padding-bottom: 30px;
-    display: inline-block;
-}
-
-.line {
-    display: block;
-}
-
-.center {
-    text-align: center;
+.img-style-list li {
+    margin: 30px 0;
 }
 
 .bottom-blue2 {
@@ -217,7 +194,10 @@ main {
     background-color: #0061ff;
     padding: 10px;
     text-align: center;
-    margin-top: 20px;
+}
+
+.text .bottom-blue2 {
+    margin-top: 50px;
     margin-bottom: 35px;
 }
 
@@ -247,7 +227,47 @@ main {
     margin-bottom: 30px;
 }
 
+/* SALES OFFICE SECTION */
+.sales-office {
+    width: 100%;
+    margin-top: 50px;
+    border: solid black 0.5px;
+}
 
+.sales-office .sales-office-title {
+    line-height: 50px;
+    text-align: center;
+}
+
+.sales-office-title img {
+    width: 15px;
+    vertical-align: middle;
+}
+
+.text1 {
+    width: 95%;
+    margin: auto;
+}
+
+.sales-office-title2 {
+    margin: 30px 0 20px 0;
+}
+
+.sales-office-title2 h2 {
+    float: left;
+    width: 70%;
+    line-height: 20px;
+    padding: 10px 10px 10px 0;
+}
+
+.sales-office-title2 div {
+    float: right;
+    width: 30%;
+}
+
+.content p:last-child {
+    margin: 40px 0 30px 0;
+}
 
 /* ----------------------------- */
 
