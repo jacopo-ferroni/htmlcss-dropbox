@@ -269,6 +269,51 @@ main {
     margin: 40px 0 30px 0;
 }
 
+/* THIRD SECTION */
+.third-section {
+    margin-top: 150px;
+}
+
+.thrd-img {
+    float: left;
+    width: 55%;
+}
+
+.thrd-img img {
+    width: 100%;
+}
+
+.thrd-text {
+    float: left;
+    width: 45%;
+}
+
+.text2 {
+    padding: 50px;
+}
+
+.text2 h2 {
+    font-size: 25px;
+    line-height: 38px;
+    padding-bottom: 20px;
+}
+
+.text2 p {
+    line-height: 35px;
+}
+
+.white-bottom {
+    margin: 30px 0;
+}
+
+.text2 a {
+    line-height: 20px;
+    background-color: white;
+    border: solid black 1px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+}
 /* ----------------------------- */
 
 /* CLEAR-FIX */
