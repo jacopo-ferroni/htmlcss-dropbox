@@ -456,6 +456,57 @@ main {
     position: absolute;
     right: 5%;
 }
+
+/* FOOTER */
+footer {
+    width: 100%;
+    background-color: black;
+}
+
+.col-footer {
+    float: left;
+    width: calc(100% / 5);
+    margin: 100px 0;
+}
+
+.col-footer ul {
+    color: white;
+    list-style: none;
+}
+
+.external-section1 {
+    margin: auto;
+    width: 80%;
+}
+
+.col-footer li h2 {
+    margin-bottom: 25px;
+}
+
+.col-footer li a{
+    color: white;
+    text-decoration: none;
+    line-height: 20px;
+}
+
+.lenguage img {
+    width: 15px;
+    filter: invert();
+    vertical-align: middle;
+}
+
+.lenguage span {
+    color: white;
+    font-size: 15px;
+}
+
+.lenguage {
+    padding: 40px 0;
+}
+
+.footer-hr {
+    width: 8%;
+}
 /* ----------------------------- */
 
 /* CLEAR-FIX */
