@@ -385,6 +385,24 @@ main {
     width: 40%;
 }
 
+.members-container {
+    margin: 50px 40px;
+}
+
+.members-container hr {
+    width: 7%;
+}
+
+.members-container p {
+    padding-top: 40px;
+    line-height: 25px;
+}
+
+.members-container img {
+    width: 150px;
+    padding-bottom: 30px;
+}
+
 .box img {
     filter: invert();
     width: 100%;
